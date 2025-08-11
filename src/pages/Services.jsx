@@ -23,6 +23,7 @@ const Services = () => {
       <div className="container-fluid text-center">
         <div className="row justify-content-center">
           <div className="col-11 col-md-4 border p-3 m-3">
+            <i class="bi bi-pen"></i>
             <h2>
               <span>ux</span> Design
             </h2>
@@ -36,6 +37,7 @@ const Services = () => {
             </p>
           </div>
           <div className="col-11 col-md-3 border p-3 m-3">
+            <i class="bi bi-code-slash"></i>
             <h2>Développement web</h2>
             <p>
               Le développement de sites web consiste à créer des sites internet
@@ -46,6 +48,7 @@ const Services = () => {
             </p>
           </div>
           <div className="col-11 col-md-3 border p-3 m-3">
+            <i class="bi bi-search"></i>
             <h2>Référencement</h2>
             <p>
               Le Référencement naturel (<span>seo</span>) est une technique qui

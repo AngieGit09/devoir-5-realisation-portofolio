@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-{
-  /*import MonProfil from "../components/MonProfil";*/
-}
+
+import MonProfil from "../components/MonProfil";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
