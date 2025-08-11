@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
-        {/* Logo / Nom */}
+        {/* Logo */}
         <Link to="/" className="navbar-brand fw-bold text-uppercase">
           JOHN DOE
         </Link>

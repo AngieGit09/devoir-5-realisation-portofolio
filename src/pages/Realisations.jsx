@@ -42,6 +42,7 @@ const Realisations = () => {
       <section>
         <div className="container-fluid text-center">
           <div className="row g-4 justify-content-center">
+            {/* Carte 1 */}
             <div className="col-11 col-md-3 border p-2 m-2">
               <img
                 className="img-fluid w-100 mb-2"

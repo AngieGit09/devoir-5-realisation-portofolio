@@ -2,15 +2,15 @@ import React from "react";
 export default function Contact() {
   return (
     <main className="container-fluid py-5">
-      {/* Titre + barre */}
       <div className="text-center mb-4">
         <h1 className="mb-2">Contact</h1>
         <p className="text-muted mt-3">
-          Pour me contacter en vue d’un entretien ou d’une future collaboration, merci de remplir le formulaire.
+          Pour me contacter en vue d’un entretien ou d’une future collaboration,
+          merci de remplir le formulaire.
         </p>
         <div className="bg-primary" style={{ height: "4px" }}>
-              <hr className="custom-hr" />
-            </div>
+          <hr className="custom-hr" />
+        </div>
       </div>
 
       {/* 2 colonnes côte à côte */}
@@ -77,12 +77,15 @@ export default function Contact() {
         <div className="col-12 col-md-4">
           <h2 className="h5">Mes coordonnées</h2>
           <p className="mb-2">
-            <strong>John Doe</strong><br />
-            40 rue Laure Diebold<br />
+            <strong>John Doe</strong>
+            <br />
+            40 rue Laure Diebold
+            <br />
             69009 Lyon, France
           </p>
           <p className="mb-2">
-            <a href="tel:1020304050">10 20 30 40 50</a><br />
+            <a href="tel:1020304050">10 20 30 40 50</a>
+            <br />
             <a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a>
           </p>
           <div className="ratio ratio-4x3">
