@@ -8,21 +8,19 @@ export default function Home() {
     <main>
       {/*Bloc 1*/}
       <section className="image-bg">
-        <div className="container-fluid text-center">
-          <div className="row">
-            <div className=" col-12 col-md-8">
-              <h1>Bonjour, je suis John Doe</h1>
-              <h2>Développeur web full stack</h2>
-              <div className="text-center">
-                <button
-                  type="button"
-                  className="btn btn-danger my-3 col-4 col-md-2 col-ms-1 btn btn-danger border-0 rounded my-3"
-                  onClick={() => setShowModal(true)}
-                >
-                  En savoir plus
-                </button>
-                {showModal && <MonProfil onClose={() => setShowModal(false)} />}
-              </div>
+        <div className="container py-5">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-8 text-center">
+              <h1 className="text-center">Bonjour, je suis John Doe</h1>
+              <h2 className="text-center">Développeur web full stack</h2>
+              <button
+                type="button"
+                className="btn btn-danger my-3 col-4 col-md-2 col-ms-1 btn btn-danger border-0 rounded my-3"
+                onClick={() => setShowModal(true)}
+              >
+                En savoir plus
+              </button>
+              {showModal && <MonProfil onClose={() => setShowModal(false)} />}
             </div>
           </div>
         </div>
