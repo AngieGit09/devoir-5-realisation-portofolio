@@ -2,13 +2,14 @@ import React from "react";
 export default function Mentions() {
   return (
     <main className="container py-5">
-      <header className="text-center mb-4">
+       {/*Bloc 1*/}
+      <section className="text-center mb-4">
         <h1 className="mt-4">Mentions légales</h1>
         <div className="title-underline mx-auto" />
         <div className="bg-primary" style={{ height: "4px" }}>
           <hr className="custom-hr" />
         </div>
-      </header>
+      </section>
 
       {/* Accordéon Bootstrap */}
       <div className="accordion accordion-flush" id="ml-accordion">

@@ -6,12 +6,20 @@ export default function Footer() {
     <footer className="bg-dark text-light py-4 mt-5">
       <div className="container">
         <div className="row text-center">
+
+          {/*colonne 1 */}
           <div className="col-12 col-md-4 mb-3">
             <h3>John Doe</h3>
             <p>40 rue Laure Diebold</p>
             <p>69009 Lyon, France</p>
-            <p>10 20 30 40 50</p>
-            <p>john.doe@gmail.com</p>
+            <a href="tel:john.doe@gmail.com" className="text-white">
+              10 20 30 40 50
+            </a>
+            <br />
+            <a href="mailto:john.doe@gmail.com" className="text-white">
+              john.doe@gmail.com
+            </a>
+            <br />
 
             <a
               href="https://github.com"
@@ -36,6 +44,7 @@ export default function Footer() {
             </a>
           </div>
 
+          {/*colonne 2*/}
           <div className="col-12 col-md-4 mb-3">
             <h3>Liens utiles</h3>
             <ul>
@@ -66,7 +75,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
+           {/*colonne 3*/}
           <div className="col-12 col-md-4 ">
             <h3>Mes dernières réalisations</h3>
             <ul>

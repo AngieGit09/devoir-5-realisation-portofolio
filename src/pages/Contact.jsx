@@ -3,6 +3,7 @@ export default function Contact() {
   return (
     <main className="container-fluid py-5">
       <div className="text-center mb-4">
+         {/*Bloc 1*/}
         <h1 className="mt-4">Contact</h1>
         <p className="text-muted mt-3">
           Pour me contacter en vue d’un entretien ou d’une future collaboration,
@@ -13,11 +14,11 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* 2 colonnes côte à côte */}
+      {/*Bloc 2*/}
       <div className="row g-4 justify-content-center shadow m-5">
         {/* Formulaire */}
         <div className="col-12 col-md-4">
-          <h2 className="h5">Formulaire de contact</h2>
+          <h2 className="h5 text-break">Formulaire de contact</h2>
           <div className="bg-primary" style={{ height: "4px" }}>
             <hr className="custom-hr" />
           </div>
@@ -70,7 +71,10 @@ export default function Contact() {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary rounded-1 m-3">
+            <button
+              type="submit"
+              className="btn btn-primary rounded-1 m-3 text-wrap text-break"
+            >
               Envoyer
             </button>
           </form>
@@ -78,7 +82,7 @@ export default function Contact() {
 
         {/* Coordonnées */}
         <div className="col-12 col-md-4">
-          <h2 className="h5">Mes coordonnées</h2>
+          <h2 className="h5 text-break">Mes coordonnées</h2>
           <div className="bg-primary mb-3" style={{ height: "4px" }}>
             <hr className="custom-hr" />
           </div>
@@ -92,7 +96,9 @@ export default function Contact() {
           <p className="mb-2">
             <a href="tel:1020304050">10 20 30 40 50</a>
             <br />
-            <a href="mailto:john.doe@gmail.com">john.doe@gmail.com</a>
+            <a href="mailto:john.doe@gmail.com" className="text-break">
+              john.doe@gmail.com
+            </a>
           </p>
           <div className="ratio ratio-4x3">
             <iframe

@@ -6,6 +6,7 @@ export default function Home() {
   const [showModal, setShowModal] = useState(false);
   return (
     <main>
+      {/*Bloc 1*/}
       <section className="image-bg">
         <div className="container-fluid text-center">
           <div className="row col-12 col-mb-8">
@@ -23,9 +24,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+         {/*Bloc 2*/}
       </section>
       <div className="container shadow my-5">
         <div className="row g-4 justify-content-center align-items-start">
+           {/*colonne 1 gauche*/}
           <section className="col-11 col-md-6 p-4 ">
             <h2>A propos</h2>
             <div className="bg-primary" style={{ height: "4px" }}>
@@ -56,7 +59,7 @@ export default function Home() {
             </p>
           </section>
 
-          {/* Compétences */}
+          {/* Colonne 2 Compétences*/}
           <section className="col-11 col-md-6 p-4 ">
             <h2 className="section-title text-uppercase mb-3">
               Mes compétences

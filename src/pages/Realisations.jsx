@@ -1,5 +1,8 @@
 import React from "react";
 
+{
+  /*Bouton voir site*/
+}
 const Bouton = ({
   href = "#",
   texte = "Voir le site",
@@ -19,6 +22,7 @@ const Bouton = ({
 const Realisations = () => {
   return (
     <main>
+      {/*Bloc 1*/}
       <img
         src="/assets/banner.jpg"
         alt="photo fond bleue"
@@ -39,9 +43,11 @@ const Realisations = () => {
         </div>
       </section>
 
+      {/*Bloc 2*/}
       <section>
         <div className="container-fluid text-center">
           <div className="row g-4 justify-content-center">
+            
             {/* Carte 1 */}
             <div className="col-11 col-md-3 border p-2 m-2">
               <img
