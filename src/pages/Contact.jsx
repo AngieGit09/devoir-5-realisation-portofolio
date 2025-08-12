@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <main className="container-fluid py-5">
       <div className="text-center mb-4">
-        <h1 className="mb-2">Contact</h1>
+        <h1 className="mt-4">Contact</h1>
         <p className="text-muted mt-3">
           Pour me contacter en vue d’un entretien ou d’une future collaboration,
           merci de remplir le formulaire.
@@ -18,6 +18,9 @@ export default function Contact() {
         {/* Formulaire */}
         <div className="col-12 col-md-4">
           <h2 className="h5">Formulaire de contact</h2>
+          <div className="bg-primary" style={{ height: "4px" }}>
+            <hr className="custom-hr" />
+          </div>
           <form className="mt-3">
             <div className="mb-2">
               <input
@@ -76,6 +79,9 @@ export default function Contact() {
         {/* Coordonnées */}
         <div className="col-12 col-md-4">
           <h2 className="h5">Mes coordonnées</h2>
+          <div className="bg-primary mb-3" style={{ height: "4px" }}>
+            <hr className="custom-hr" />
+          </div>
           <p className="mb-2">
             <strong>John Doe</strong>
             <br />

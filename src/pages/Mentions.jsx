@@ -3,7 +3,7 @@ export default function Mentions() {
   return (
     <main className="container py-5">
       <header className="text-center mb-4">
-        <h1 className="mb-2">Mentions légales</h1>
+        <h1 className="mt-4">Mentions légales</h1>
         <div className="title-underline mx-auto" />
         <div className="bg-primary" style={{ height: "4px" }}>
           <hr className="custom-hr" />

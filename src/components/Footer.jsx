@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/Mentions" className="text-light">
-                  Mentions
+                  Mentions légales
                 </Link>
               </li>
             </ul>
