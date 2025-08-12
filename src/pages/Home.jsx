@@ -16,7 +16,7 @@ export default function Home() {
               <div className="text-center">
                 <button
                   type="button"
-                  className="btn btn-danger my-3 col-4 col-mb-3 col-ms-1 btn btn-danger border-0 rounded my-3"
+                  className="btn btn-danger my-3 col-4 col-md-2 col-ms-1 btn btn-danger border-0 rounded my-3"
                   onClick={() => setShowModal(true)}
                 >
                   En savoir plus

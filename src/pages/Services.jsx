@@ -1,4 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+
+function ServiceCard({ icon, title, children }) {
+  const [hover, setHover] = useState(false);
+
+  const style = {
+    backgroundColor: hover ? "#efefef" : "var(--bs-body-bg)",
+    boxShadow: hover ? "0 .5rem 1rem rgba(0,0,0,.15)" : "none",
+    transition: "all .15s ease-in-out",
+    cursor: "default",
+  };
+
+  return (
+    <div
+      className="col"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
+      <div className="card h-100 border rounded-3" style={style}>
+        <div className="card-body text-center">
+          <i
+            className={`bi ${icon} fs-1 text-primary d-block mb-3`}
+            aria-hidden="true"
+          ></i>
+          <h3 className="h5">{title}</h3>
+          <p className="mb-0">{children}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 const Services = () => {
   return (
     <main>
@@ -23,10 +54,8 @@ const Services = () => {
             </div>
           </div>
         </div>
-
-        <div className="container-fluid text-center">
-          <div className="row justify-content-center">
-            {/*Number 1*/}
+        <div className="container">
+          <div className="row justify-content-center text-center">
             <div className="col-11 col-md-4 border p-3 m-3">
               <i class="bi bi-pen"></i>
               <h2>
