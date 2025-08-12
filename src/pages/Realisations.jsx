@@ -31,7 +31,7 @@ const Realisations = () => {
       <section>
         <div className="container-fluid text-center">
           <h1 className="mt-4">Portofolio</h1>
-          <p>Voir quelques unes de mes réalisations</p>
+          <p>Voici quelques-unes de mes réalisations</p>
 
           <div className="row justify-content-center">
             <div className="col-4 col-md-5 mb-5">
@@ -47,7 +47,6 @@ const Realisations = () => {
       <section>
         <div className="container-fluid text-center">
           <div className="row g-4 justify-content-center">
-            
             {/* Carte 1 */}
             <div className="col-11 col-md-3 border p-2 m-2">
               <img
