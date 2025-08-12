@@ -1,9 +1,6 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-}
-
-.App {
   font-family: Nunito Sans sans-serif;
   font-size: 0.5rem;
 }
@@ -70,4 +67,23 @@ footer ul {
 .navbar .nav-link:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+footer a:hover {
+  font-weight: 700;
+}
+
+.reseau {
+  opacity: 0.4;
+  color: var(--bs-secondary-color);
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.reseau:hover {
+  opacity: 1;
+  color: #ffffff;
+}
+
+.nav-item {
+  text-transform: uppercase;
 }

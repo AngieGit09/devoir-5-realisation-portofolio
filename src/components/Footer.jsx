@@ -6,7 +6,6 @@ export default function Footer() {
     <footer className="bg-dark text-light py-4 mt-5">
       <div className="container">
         <div className="row text-center">
-
           {/*colonne 1 */}
           <div className="col-12 col-md-4 mb-3">
             <h3>John Doe</h3>
@@ -21,27 +20,29 @@ export default function Footer() {
             </a>
             <br />
 
-            <a
-              href="https://github.com"
-              target="_blank"
-              className="text-white p-1"
-            >
-              <i class="bi bi-github"></i>
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              className="text-white p-1"
-            >
-              <i class="bi bi-linkedin"></i>
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              className="text-white p-1"
-            >
-              <i class="bi bi-twitter"></i>
-            </a>
+            <div className="reseau">
+              <a
+                href="https://github.com"
+                target="_blank"
+                className="text-white p-1"
+              >
+                <i class="bi bi-github"></i>
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                className="text-white p-1"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                className="text-white p-1"
+              >
+                <i class="bi bi-twitter"></i>
+              </a>
+            </div>
           </div>
 
           {/*colonne 2*/}
@@ -75,7 +76,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-           {/*colonne 3*/}
+          {/*colonne 3*/}
           <div className="col-12 col-md-4 ">
             <h3>Mes dernières réalisations</h3>
             <ul>

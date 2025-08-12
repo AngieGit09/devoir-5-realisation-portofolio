@@ -10,7 +10,7 @@ export default function Home() {
       <section className="image-bg">
         <div className="container-fluid text-center">
           <div className="row">
-            <div className=" col-12 col-mb-8">
+            <div className=" col-12 col-md-8">
               <h1>Bonjour, je suis John Doe</h1>
               <h2>Développeur web full stack</h2>
               <div className="text-center">
